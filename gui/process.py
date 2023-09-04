@@ -34,7 +34,7 @@ class MainWindow(QMainWindow):
 
         self.process_button = QPushButton("Process")
         self.process_button.clicked.connect(self.process_input)
-        self.process_button.setEnabled(False)  # 初始禁用 "处理输入" 按钮
+        self.process_button.setEnabled(False)
 
         self.image_label = QLabel()
         self.image_label.setAlignment(Qt.AlignCenter)
@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
 
         self.setup_ui()
 
-        self.file_loaded = False  # 标记文件是否已加载
+        self.file_loaded = False
 
     def setup_ui(self):
         central_widget = QWidget(self)
@@ -130,7 +130,7 @@ class MainWindow(QMainWindow):
         self.output_text1.setPlainText("Formula: " + input1 + "\n \n" + "Truth Value: " + res_truth + "\n \n" + "Time: " + cal_time)
         self.output_text2.append(res_info)
 
-        image_path = "/Users/wing/Workspaces/PycharmProjects/Z3-Test/gui/img/tree.svg"
+        image_path = "/Users/wing/Workspaces/PycharmProjects/THSL/gui/img/tree.svg"
         if image_path.strip() != "":
             renderer = QSvgRenderer(image_path)
             if not renderer.isValid():
