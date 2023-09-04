@@ -1,0 +1,98 @@
+{
+  "region": [
+    {
+      "id": "1",
+      "f_key": "r_0",
+      "free": "0",
+      "spatial-relation": "0, N, E, EN, ES, E, EN, EN"
+    },
+    {
+      "id": "2",
+      "f_key": "r_0",
+      "free": "1",
+      "spatial-relation": "S, 0, ES, E, ES, ES, E, EN"
+    },
+    {
+      "id": "3",
+      "f_key": "r_0",
+      "free": "1",
+      "spatial-relation": "W, WN, 0, N, ES, E, EN, EN"
+    },
+    {
+      "id": "4",
+      "f_key": "r_0",
+      "free": "0",
+      "spatial-relation": "WS, W, S, 0, ES, ES, E, EN"
+    },
+    {
+      "id": "5",
+      "f_key": "r_1",
+      "free": "1",
+      "spatial-relation": "WN, WN, WN, WN, 0, WN, WN, EN"
+    },
+    {
+      "id": "6",
+      "f_key": "c_0",
+      "free": "1",
+      "spatial-relation": "W, WN, W, WN, ES, 0, N, EN"
+    },
+    {
+      "id": "7",
+      "f_key": "c_0",
+      "free": "0",
+      "spatial-relation": "WS, W, WS, W, ES, S, 0, EN"
+    },
+    {
+      "id": "8",
+      "f_key": "r_5",
+      "free": "0",
+      "spatial-relation": "WS, WS, WS, WS, WS, WS, WS, 0"
+    }
+  ],
+  "object": [
+    {
+      "id": "100",
+      "pos": "1",
+      "dir": "E",
+      "spd": "1",
+      "left": "0",
+      "right": "0",
+      "cl": "",
+      "acc": "0",
+      "path": "1, 3, 0, 0"
+    },
+    {
+      "id": "101",
+      "pos": "4",
+      "dir": "W",
+      "spd": "1",
+      "left": "0",
+      "right": "0",
+      "cl": "",
+      "acc": "0",
+      "path": "4, 2, 0, 0"
+    },
+    {
+      "id": "102",
+      "pos": "8",
+      "dir": "WS",
+      "spd": "1",
+      "left": "0",
+      "right": "0",
+      "cl": "7",
+      "acc": "0",
+      "path": "8, 7, 0, 0"
+    },
+    {
+      "id": "103",
+      "pos": "7",
+      "dir": "S",
+      "spd": "0",
+      "left": "0",
+      "right": "0",
+      "cl": "7",
+      "acc": "0",
+      "path": "7,7,7,7"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "region": [
+    {
+      "id": "1",
+      "key": "r_0",
+      "spatial-relation": "0, ES, EN, E"
+    },
+    {
+      "id": "2",
+      "key": "r_1",
+      "spatial-relation": "WN, 0, N, WN"
+    },
+    {
+      "id": "3",
+      "key": "r_5",
+      "spatial-relation": "WS, S, 0, WS"
+    },
+    {
+      "id": "4",
+      "key": "c_0",
+      "spatial-relation": "W, ES, EN, 0"
+    }
+  ]
+}
