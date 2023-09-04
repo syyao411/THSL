@@ -1,0 +1,12 @@
+### Todo
+ - [ - ] The standardized input for view area r.
+ - [ - ] The standardized model input.
+ - [ - ] A function $v$ needs to create.
+   - usage: Map car or signal variables to the id that recorded in models.
+ - [ - ] The model's content is missing some information.
+   - Compared with TS and ES, such as vehicles' speed, turn signal, acceleration, and the current state of traffic lights are not included.
+ - [ - ] Extend the constraints for mixed spatial relation operations.
+   - At present, the solver can support mixed spatial relation operations but not applied and tested.
+ - [ - ] Other minor details need to be considered.
+    - [ - ] update the syntax checking of operation $\Pi$
+    - [ - ] map the grid network with road network 
